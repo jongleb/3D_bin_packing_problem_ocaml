@@ -1,0 +1,4 @@
+(executable
+ (name cube_problem_console)
+ (public_name cube_problem_console)
+ (libraries cube_problem base))

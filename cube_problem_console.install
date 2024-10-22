@@ -1,0 +1,12 @@
+lib: [
+  "/Users/glebpatcia/Home/test_work/_esy/default/store/b/ocaml_starter-87a786e6/install/default/lib/cube_problem_console/META"
+  "/Users/glebpatcia/Home/test_work/_esy/default/store/b/ocaml_starter-87a786e6/install/default/lib/cube_problem_console/dune-package"
+  "/Users/glebpatcia/Home/test_work/_esy/default/store/b/ocaml_starter-87a786e6/install/default/lib/cube_problem_console/opam"
+]
+bin: [
+  "/Users/glebpatcia/Home/test_work/_esy/default/store/b/ocaml_starter-87a786e6/install/default/bin/cube_problem_console"
+]
+doc: [
+  "/Users/glebpatcia/Home/test_work/_esy/default/store/b/ocaml_starter-87a786e6/install/default/doc/cube_problem_console/LICENSE"
+  "/Users/glebpatcia/Home/test_work/_esy/default/store/b/ocaml_starter-87a786e6/install/default/doc/cube_problem_console/README.md"
+]

@@ -1,0 +1,17 @@
+(library
+ (name lib_test)
+ (libraries alcotest cube_problem)
+ (modules
+  (:standard \ test_runner)))
+
+(executable
+ (name test_runner)
+ (libraries alcotest base lib_test)
+ (modules test_runner))
+
+(rule
+ (alias runtest)
+ (deps
+  (:m test_runner.exe))
+ (action
+  (run %{m} -q --color=always)))

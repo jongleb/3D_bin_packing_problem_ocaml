@@ -1,0 +1,25 @@
+{
+  "name": "cube_problem_console",
+  "license": "MIT",
+  "esy": { "build": "dune build -p #{self.name}" },
+  "scripts": {
+    "watch": "dune build -p #{self.name} -w",
+    "test": "esy dune build @test/runtest -f",
+    "test:watch": "esy dune build @test/runtest -f -w",
+    "utop": "esy dune utop lib -- -implicit-bindings",
+    "doc": "esy dune build @doc"
+  },
+  "dependencies": {
+    "@opam/base": "v0.15.1",
+    "@opam/dune": "*",
+    "@opam/ppx_jane": "v0.15.0",
+    "ocaml": "4.14.x"
+  },
+  "devDependencies": {
+    "@opam/ocaml-lsp-server": "*",
+    "@opam/ocamlformat-rpc": "*",
+    "@opam/utop": "*",
+    "@opam/alcotest": "*",
+    "@opam/odoc": "*"
+  }
+}
